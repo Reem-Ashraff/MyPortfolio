@@ -416,6 +416,27 @@ body {
         display: block;
 }
 
+
+#projects .project5 {
+        background-image: url(images/rental.png);
+        background-size: cover;
+        height: 39vmin;
+        transition: 0.3s;
+        border-radius: 0.7vmin;
+        box-shadow: 0 0 3vmin rgb(149, 69, 40);
+        margin-bottom: 5vmin;
+}
+
+#projects .p5:hover .project5 {
+        transform: scale(1.03);
+        opacity: 10%;
+        box-shadow: 0.7vmin 0.7vmin 1vmin rgb(0, 0, 0);
+}
+
+#projects .p5:hover .t {
+        display: block;
+}
+
 #contact h1 {
         font-size: 7vmin;
         font-weight: 500;
