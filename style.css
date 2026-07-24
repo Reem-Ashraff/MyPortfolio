@@ -437,6 +437,26 @@ body {
         display: block;
 }
 
+#projects .project6 {
+        background-image: url(images/bonian.jpeg);
+        background-size: cover;
+        height: 39vmin;
+        transition: 0.3s;
+        border-radius: 0.7vmin;
+        box-shadow: 0 0 3vmin rgb(149, 69, 40);
+        margin-bottom: 8vmin;
+}
+
+#projects .p6:hover .project6 {
+        transform: scale(1.03);
+        opacity: 10%;
+        box-shadow: 0.7vmin 0.7vmin 1vmin rgb(0, 0, 0);
+}
+
+#projects .p6:hover .t {
+        display: block;
+}
+
 #contact h1 {
         font-size: 7vmin;
         font-weight: 500;
