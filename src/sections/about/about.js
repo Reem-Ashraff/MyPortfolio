@@ -14,7 +14,7 @@ const About = () => {
                         <p>I'm a Full-Stack Developer with hands-on experience in building web applications using React.js, Anguler, Laravel/PHP, and MySQL. I enjoy turning ideas into real-world solutions, writing clean and scalable code, and learning new technologies.</p>
                         <p>I have experience in developing RESTful APts, implementing authentication and authoritation systems, and building responsive and user-friendly intertaces.</p>
                         <p>I'm always eager to take on new challenges and contribute to meaningful projects.</p>
-                        <a href="../../../assets/fullstack_resume_reem_ashraf.pdf" target="_blank" rel="noreferrer"><i className="bi bi-download"></i> Download CV</a>
+                        <a href={`${process.env.PUBLIC_URL}/assets/fullstack_resume_reem_ashraf.pdf`} target="_blank" rel="noreferrer"><i className="bi bi-download"></i> Download CV</a>
                     </div>
                     <div className="col-12 col-lg-6 d-flex justify-content-end">
                         <div className="personal-info">

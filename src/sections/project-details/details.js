@@ -53,47 +53,47 @@ const ProjectDetails = () => {
 
       screenshots: [
         {
-          image: "../../../assets/bonian/bonian-hero.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/bonian/bonian-hero.jpeg`,
           title: "English Home Page",
         },
         {
-          image: "../../../assets/bonian/bonian-hero2.png",
+          image: `${process.env.PUBLIC_URL}/assets/bonian/bonian-hero2.png`,
           title: "Arabic Home Page",
         },
         {
-          image: "../../../assets/bonian/bonian-projects.png",
+          image: `${process.env.PUBLIC_URL}/assets/bonian/bonian-projects.png`,
           title: "Projects Page",
         },
         {
-          image: "../../../assets/bonian/bonian-details.png",
+          image: `${process.env.PUBLIC_URL}/assets/bonian/bonian-details.png`,
           title: "English Details Page",
         },
         {
-          image: "../../../assets/bonian/bonian-details2.png",
+          image: `${process.env.PUBLIC_URL}/assets/bonian/bonian-details2.png`,
           title: "Arabic Details Page",
         },
         {
-          image: "../../../assets/bonian/bonian-services.png",
+          image: `${process.env.PUBLIC_URL}/assets/bonian/bonian-services.png`,
           title: "English Services Page",
         },
         {
-          image: "../../../assets/bonian/bonian-services2.png",
+          image: `${process.env.PUBLIC_URL}/assets/bonian/bonian-services2.png`,
           title: "Arabic Services Page",
         },
         {
-          image: "../../../assets/bonian/bonian-about.png",
+          image: `${process.env.PUBLIC_URL}/assets/bonian/bonian-about.png`,
           title: "English About Page",
         },
         {
-          image: "../../../assets/bonian/bonian-about2.png",
+          image: `${process.env.PUBLIC_URL}/assets/bonian/bonian-about2.png`,
           title: "Arabic About Page",
         },
         {
-          image: "../../../assets/bonian/bonian-contact.png",
+          image: `${process.env.PUBLIC_URL}/assets/bonian/bonian-contact.png`,
           title: "English Contact Page",
         },
         {
-          image: "../../../assets/bonian/bonian-contact2.png",
+          image: `${process.env.PUBLIC_URL}/assets/bonian/bonian-contact2.png`,
           title: "Arabic Contact Page",
         }
       ],
@@ -155,119 +155,119 @@ const ProjectDetails = () => {
 
       screenshots: [
         {
-          image: "../../../assets/furniture/furniture-hero.png",
+          image: `${process.env.PUBLIC_URL}/assets/furniture/furniture-hero.png`,
           title: "Home Page",
         },
         {
-          image: "../../../assets/furniture/furniture-products.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/furniture/furniture-products.jpeg`,
           title: "Shop Page",
         },
         {
-          image: "../../../assets/furniture/furniture-details.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/furniture/furniture-details.jpeg`,
           title: "Admin Dashboard",
         },
         {
-          image: "../../../assets/furniture/furniture-sales.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/furniture/furniture-sales.jpeg`,
           title: "Admin Dashboard",
         },
         {
-          image: "../../../assets/furniture/furniture-favorites.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/furniture/furniture-favorites.jpeg`,
           title: "Admin Dashboard",
         },
         {
-          image: "../../../assets/furniture/furniture-cart.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/furniture/furniture-cart.jpeg`,
           title: "Admin Dashboard",
         },
         {
-          image: "../../../assets/furniture/furniture-checkout.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/furniture/furniture-checkout.jpeg`,
           title: "Admin Dashboard",
         },
         {
-          image: "../../../assets/furniture/furniture-notifications.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/furniture/furniture-notifications.jpeg`,
           title: "Admin Dashboard",
         },
         {
-          image: "../../../assets/furniture/furniture-profile-dash.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/furniture/furniture-profile-dash.jpeg`,
           title: "Admin Dashboard",
         },
         {
-          image: "../../../assets/furniture/furniture-orders.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/furniture/furniture-orders.jpeg`,
           title: "Admin Dashboard",
         },
         {
-          image: "../../../assets/furniture/furniture-order-shipped.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/furniture/furniture-order-shipped.jpeg`,
           title: "Admin Dashboard",
         },
         {
-          image: "../../../assets/furniture/furniture-order-prepared.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/furniture/furniture-order-prepared.jpeg`,
           title: "Admin Dashboard",
         },
         {
-          image: "../../../assets/furniture/furniture-account-details1.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/furniture/furniture-account-details1.jpeg`,
           title: "Admin Dashboard",
         },
         {
-          image: "../../../assets/furniture/furniture-account-details2.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/furniture/furniture-account-details2.jpeg`,
           title: "Admin Dashboard",
         },
         {
-          image: "../../../assets/furniture/furniture-login.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/furniture/furniture-login.jpeg`,
           title: "Admin Dashboard",
         },
         {
-          image: "../../../assets/furniture/furniture-dash-main.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/furniture/furniture-dash-main.jpeg`,
           title: "Order Tracking",
         },
         {
-          image: "../../../assets/furniture/furniture-dash-products.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/furniture/furniture-dash-products.jpeg`,
           title: "Order Tracking",
         },
         {
-          image: "../../../assets/furniture/furniture-dash-product-edit.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/furniture/furniture-dash-product-edit.jpeg`,
           title: "Order Tracking",
         },
         {
-          image: "../../../assets/furniture/furniture-dash-product-add.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/furniture/furniture-dash-product-add.jpeg`,
           title: "Order Tracking",
         },
         {
-          image: "../../../assets/furniture/furniture-dash-categories.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/furniture/furniture-dash-categories.jpeg`,
           title: "Order Tracking",
         },
         {
-          image: "../../../assets/furniture/furniture-dash-category-edit.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/furniture/furniture-dash-category-edit.jpeg`,
           title: "Order Tracking",
         },
         {
-          image: "../../../assets/furniture/furniture-dash-category-add.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/furniture/furniture-dash-category-add.jpeg`,
           title: "Order Tracking",
         },
         {
-          image: "../../../assets/furniture/furniture-dash-orders.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/furniture/furniture-dash-orders.jpeg`,
           title: "Order Tracking",
         },
         {
-          image: "../../../assets/furniture/furniture-dash-order-details.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/furniture/furniture-dash-order-details.jpeg`,
           title: "Order Tracking",
         },
         {
-          image: "../../../assets/furniture/furniture-dash-user-add.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/furniture/furniture-dash-user-add.jpeg`,
           title: "Order Tracking",
         },
         {
-          image: "../../../assets/furniture/furniture-dash-offers.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/furniture/furniture-dash-offers.jpeg`,
           title: "Order Tracking",
         },
         {
-          image: "../../../assets/furniture/furniture-dash-offer-edit.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/furniture/furniture-dash-offer-edit.jpeg`,
           title: "Order Tracking",
         },
         {
-          image: "../../../assets/furniture/furniture-driver-home.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/furniture/furniture-driver-home.jpeg`,
           title: "Order Tracking",
         },
         {
-          image: "../../../assets/furniture/furniture-driver-location.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/furniture/furniture-driver-location.jpeg`,
           title: "Order Tracking",
         },
       ],
@@ -325,71 +325,71 @@ const ProjectDetails = () => {
 
       screenshots: [
         {
-          image: "../../../assets/bikes/bikes-hero.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/bikes/bikes-hero.jpeg`,
           title: "Home Page",
         },
         {
-          image: "../../../assets/bikes/bikes-bikes1.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/bikes/bikes-bikes1.jpeg`,
           title: "Bikes Listing",
         },
         {
-          image: "../../../assets/bikes/bikes-bikes2.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/bikes/bikes-bikes2.jpeg`,
           title: "Bike Details",
         },
         {
-          image: "../../../assets/bikes/bikes-details1.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/bikes/bikes-details1.jpeg`,
           title: "Login / Register",
         },
         {
-          image: "../../../assets/bikes/bikes-details2.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/bikes/bikes-details2.jpeg`,
           title: "Admin Dashboard",
         },
         {
-          image: "../../../assets/bikes/bikes-rent1.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/bikes/bikes-rent1.jpeg`,
           title: "Rental Management",
         },
         {
-          image: "../../../assets/bikes/bikes-rent2.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/bikes/bikes-rent2.jpeg`,
           title: "Rental Management",
         },
         {
-          image: "../../../assets/bikes/bikes-receipt.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/bikes/bikes-receipt.jpeg`,
           title: "Rental Management",
         },
         {
-          image: "../../../assets/bikes/bikes-login.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/bikes/bikes-login.jpeg`,
           title: "Rental Management",
         },
         {
-          image: "../../../assets/bikes/bikes-dash-main.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/bikes/bikes-dash-main.jpeg`,
           title: "Rental Management",
         },
         {
-          image: "../../../assets/bikes/bikes-dash-categories.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/bikes/bikes-dash-categories.jpeg`,
           title: "Rental Management",
         },
         {
-          image: "../../../assets/bikes/bikes-dash-category-add.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/bikes/bikes-dash-category-add.jpeg`,
           title: "Rental Management",
         },
         {
-          image: "../../../assets/bikes/bikes-dash-bikes.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/bikes/bikes-dash-bikes.jpeg`,
           title: "Rental Management",
         },
         {
-          image: "../../../assets/bikes/bikes-dash-bike-add.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/bikes/bikes-dash-bike-add.jpeg`,
           title: "Rental Management",
         },
         {
-          image: "../../../assets/bikes/bikes-dash-locations.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/bikes/bikes-dash-locations.jpeg`,
           title: "Rental Management",
         },
         {
-          image: "../../../assets/bikes/bikes-dash-offers.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/bikes/bikes-dash-offers.jpeg`,
           title: "Rental Management",
         },
         {
-          image: "../../../assets/bikes/bikes-dash-rentals.jpeg",
+          image: `${process.env.PUBLIC_URL}/assets/bikes/bikes-dash-rentals.jpeg`,
           title: "Rental Management",
         }
       ],
@@ -445,51 +445,51 @@ const ProjectDetails = () => {
 
       screenshots: [
         {
-          image: "../../../assets/green/green_hero.png",
+          image: `${process.env.PUBLIC_URL}/assets/green/green_hero.png`,
           title: "Home Page",
         },
         {
-          image: "../../../assets/green/green-plants.png",
+          image: `${process.env.PUBLIC_URL}/assets/green/green-plants.png`,
           title: "Products",
         },
         {
-          image: "../../../assets/green/green-cart.png",
+          image: `${process.env.PUBLIC_URL}/assets/green/green-cart.png`,
           title: "Product Details",
         },
         {
-          image: "../../../assets/green/green-checkout.png",
+          image: `${process.env.PUBLIC_URL}/assets/green/green-checkout.png`,
           title: "Admin Dashboard",
         },
         {
-          image: "../../../assets/green/green-login.png",
+          image: `${process.env.PUBLIC_URL}/assets/green/green-login.png`,
           title: "Admin Dashboard",
         },
         {
-          image: "../../../assets/green/green-dash-main.png",
+          image: `${process.env.PUBLIC_URL}/assets/green/green-dash-main.png`,
           title: "Admin Dashboard",
         },
         {
-          image: "../../../assets/green/green-dash-categories.png",
+          image: `${process.env.PUBLIC_URL}/assets/green/green-dash-categories.png`,
           title: "Admin Dashboard",
         },
         {
-          image: "../../../assets/green/green-dash-category-items.png",
+          image: `${process.env.PUBLIC_URL}/assets/green/green-dash-category-items.png`,
           title: "Admin Dashboard",
         },
         {
-          image: "../../../assets/green/green-dash-add-category.png",
+          image: `${process.env.PUBLIC_URL}/assets/green/green-dash-add-category.png`,
           title: "Admin Dashboard",
         },
         {
-          image: "../../../assets/green/green-dash-update-category.png",
+          image: `${process.env.PUBLIC_URL}/assets/green/green-dash-update-category.png`,
           title: "Admin Dashboard",
         },
         {
-          image: "../../../assets/green/green-dash-plants.png",
+          image: `${process.env.PUBLIC_URL}/assets/green/green-dash-plants.png`,
           title: "Admin Dashboard",
         },
         {
-          image: "../../../assets/green/green-dash-add-plant.png",
+          image: `${process.env.PUBLIC_URL}/assets/green/green-dash-add-plant.png`,
           title: "Admin Dashboard",
         }
       ],

@@ -12,8 +12,8 @@ const Projects = () => {
             category: "Corporate Website",
             tech: ["React.js, ", "Bootstrap, ", "JavaScript"],
             description: "Developed a responsive multi-page corporate website for a general contracting company, showcasing its services, projects, and company portfolio through a modern and user-friendly interface.",
-            darkImage: "../../../assets/bonian/bonian-dark.png",
-            lightImage: "../../../assets/bonian/bonian-light.png",
+            darkImage: `${process.env.PUBLIC_URL}/assets/bonian/bonian-dark.png`,
+            lightImage: `${process.env.PUBLIC_URL}/assets/bonian/bonian-light.png`,
             live: "https://www.boniannabil.com",
             github: null
         },
@@ -23,8 +23,8 @@ const Projects = () => {
             category: "Full-Stack E-Commerce",
             tech: ["React.js, ", "Redux, ", "Laravel, ", "MySQL"],
             description: "Developed a full-stack e-commerce platform for managing and purchasing furniture products, featuring authentication, product management, shopping cart, wishlist, order management, and an admin dashboard.",
-            darkImage: "../../../assets/furniture/furniture-dark.png",
-            lightImage: "../../../assets/furniture/furniture-light.png",
+            darkImage: `${process.env.PUBLIC_URL}/assets/furniture/furniture-dark.png`,
+            lightImage: `${process.env.PUBLIC_URL}/assets/furniture/furniture-light.png`,
             live: null,
             github: "https://github.com/Reem-Ashraff/react-furniture-store"
         },
@@ -34,8 +34,8 @@ const Projects = () => {
             category: "Full-Stack Rental Platform",
             tech: ["Angular, ", "Laravel, ", "MySQL"],
             description: "Developed a full-stack bike rental platform with bike browsing, rental management, user authentication, offers, locations, and an admin dashboard.",
-            darkImage: "../../../assets/bikes/bikes-dark.png",
-            lightImage: "../../../assets/bikes/bikes-light.png",
+            darkImage: `${process.env.PUBLIC_URL}/assets/bikes/bikes-dark.png`,
+            lightImage: `${process.env.PUBLIC_URL}/assets/bikes/bikes-light.png`,
             live: null,
             github: "https://github.com/Reem-Ashraff/Bikes_Rental_website"
         },
@@ -45,8 +45,8 @@ const Projects = () => {
             category: "Full-Stack E-Commerce",
             tech: ["Angular, ", "PHP, ", "MySQL"],
             description: "Developed a full-stack e-commerce platform for browsing and managing products, featuring a customer-facing storefront and an administrative dashboard.",
-            darkImage: "../../../assets/green/green-dark.png",
-            lightImage: "../../../assets/green/green-light.png",
+            darkImage: `${process.env.PUBLIC_URL}/assets/green/green-dark.png`,
+            lightImage: `${process.env.PUBLIC_URL}/assets/green/green-light.png`,
             live: "https://angular-green-store-npux.vercel.app/",
             github: null
         }

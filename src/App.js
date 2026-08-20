@@ -15,7 +15,7 @@ import ProjectDetails from './sections/project-details/details';
 function App() {
   return (
     <>
-    <Router>
+    <Router basename="/MyPortfolio">
       <ThemeProvider>
         <div className='page-wrapper'>
       <Header></Header>
