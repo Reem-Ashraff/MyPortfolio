@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Reem-Ashraff/MyPortfolio.git/static/css/main.54da1138.css",
+    "main.js": "/Reem-Ashraff/MyPortfolio.git/static/js/main.da8a9e6f.js",
+    "static/js/453.0b72f93f.chunk.js": "/Reem-Ashraff/MyPortfolio.git/static/js/453.0b72f93f.chunk.js",
+    "static/media/dark-background.jpeg": "/Reem-Ashraff/MyPortfolio.git/static/media/dark-background.3d7fa1577aaed6b0960b.jpeg",
+    "static/media/light-background.jpeg": "/Reem-Ashraff/MyPortfolio.git/static/media/light-background.d18dcbaac816b5d59c81.jpeg",
+    "static/media/bootstrap-icons.woff?": "/Reem-Ashraff/MyPortfolio.git/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/bootstrap-icons.woff2?": "/Reem-Ashraff/MyPortfolio.git/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
+    "index.html": "/Reem-Ashraff/MyPortfolio.git/index.html",
+    "main.54da1138.css.map": "/Reem-Ashraff/MyPortfolio.git/static/css/main.54da1138.css.map",
+    "main.da8a9e6f.js.map": "/Reem-Ashraff/MyPortfolio.git/static/js/main.da8a9e6f.js.map",
+    "453.0b72f93f.chunk.js.map": "/Reem-Ashraff/MyPortfolio.git/static/js/453.0b72f93f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54da1138.css",
+    "static/js/main.da8a9e6f.js"
+  ]
+}
