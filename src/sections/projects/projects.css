@@ -1,0 +1,122 @@
+.projects-section {
+    padding: 7vmin 10vmin;
+}
+
+.projects-head h3 {
+    font-size: 4vmin;
+    letter-spacing: 0.1vmin;
+    color: var(--text-color);
+}
+
+.projects-head .line {
+    color: var(--accent-color);
+    font-size: 2.5vmin;
+    line-height: 2vmin;
+    margin-bottom: 5vmin;
+}
+
+.projects-head a {
+    font-size: 2.8vmin;
+    letter-spacing: 0.1vmin;
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.projects-description {
+    font-size: 2.7vmin;
+    margin-bottom: 4vmin;
+}
+
+.project {
+    width: 32.3%;
+    background-color: var(--card-color);
+    border: 0.3vmin solid var(--border-color);
+    border-radius: 0.5vmin;
+    margin-bottom: 3vmin;
+}
+
+.project:last-child {
+    margin-bottom: 0vmin;
+}
+
+/* .project  img{
+    transition: 0.3s;
+}
+.project img:hover{
+    transform: scale(1.1);
+} */
+
+.project .card-content {
+    padding: 3vmin 3.5vmin;
+}
+
+.project .title {
+    font-size: 3.2vmin;
+    color: var(--text-color);
+    letter-spacing: 0.1vmin;
+}
+
+.project .category {
+    font-size: 2.2vmin;
+    color: var(--accent-color);
+    border: 0.2vmin solid var(--accent-color);
+    padding: 0.5vmin 1.5vmin;
+}
+
+.project .description {
+    font-size: 2.3vmin;
+    margin-top: 2vmin;
+    margin-bottom: 2vmin;
+}
+
+.project .technology {
+    font-size: 2.3vmin;
+    color: var(--text-color);
+    margin-bottom: 2vmin;
+}
+
+.project .technology span {
+    color: var(--accent-color);
+}
+.project .link{
+    text-decoration: none;
+}
+.project .view-btn {
+    color: var(--accent-color);
+    background-color: transparent;
+    border: none;
+    font-size: 2.3vmin;
+    transition: 0.3s;
+}
+.project .view-btn:hover{
+    color: var(--text-color);
+}
+
+@media (max-width: 800px) {
+    .project {
+        width: 100%;
+        margin-bottom: 5vmin;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 992px) {
+    .project {
+        width: 49%;
+        margin-bottom: 5vmin;
+    }
+
+    .project .title {
+        font-size: 2.5vmin;
+    }
+
+    .project .category {
+        font-size: 1.7vmin;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1350px) {
+    .project {
+        width: 49%;
+        margin-bottom: 5vmin;
+    }
+}

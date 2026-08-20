@@ -1,0 +1,8 @@
+footer{
+    color: var(--text-color);
+    background-color: var(--navbar-bg);
+    border-top: 0.2vmin solid var(--border-color);
+    font-size: 2.7vmin;
+    padding: 3vmin 4vmin;
+    font-weight: 350;
+}

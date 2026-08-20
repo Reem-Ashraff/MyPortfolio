@@ -1,0 +1,329 @@
+.details-section {
+    padding: 7vmin 10vmin;
+}
+
+.info {
+    padding-right: 5vmin;
+}
+
+.details-section .badge {
+    color: var(--accent-color);
+    font-size: 2.5vmin;
+    background-color: var(--card-color);
+    font-weight: 500;
+    box-shadow: 0vmin 0vmin 0.3vmin var(--accent-color);
+    border-radius: 0.3vmin;
+    padding: 1.5vmin 2vmin;
+    margin-bottom: 3vmin;
+}
+
+.details-section h3 {
+    font-size: 10vmin;
+    letter-spacing: 0.1vmin;
+    color: var(--text-color);
+}
+
+.details-section .description {
+    font-size: 2.5vmin;
+    margin-top: 4vmin;
+    margin-bottom: 6vmin;
+}
+
+.details-section .live {
+    font-size: 2.5vmin;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: var(--accent-color);
+    border: 0.2vmin solid var(--accent-color);
+    border-radius: 0.3vmin;
+    padding: 1.2vmin 2.5vmin;
+    margin-right: 3vmin;
+    transition: 0.3s;
+}
+.details-section .live:hover{
+    color: var(--text-color);
+    background-color: var(--card-color);
+    border-color: var(--border-color);
+}
+
+.details-section .code {
+    font-size: 2.5vmin;
+    text-decoration: none;
+    color: var(--text-color);
+    background-color: var(--card-color);
+    border: 0.2vmin solid var(--border-color);
+    border-radius: 0.3vmin;
+    padding: 1.2vmin 2.5vmin;
+    transition: 0.3s;
+}
+.details-section .code:hover {
+    color: #ffffff;
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.project-type {
+    margin-top: 6vmin;
+    background-color: var(--card-color);
+    padding: 2vmin 3vmin;
+    border: 0.2vmin solid var(--border-color);
+    border-radius: 0.3vmin;
+}
+
+.project-type i {
+    margin-right: 3vmin;
+    color: var(--accent-color);
+    font-size: 3.2vmin;
+}
+
+.project-type div div {
+    font-size: 2.5vmin;
+    margin-bottom: 1.2vmin;
+}
+
+.project-type p {
+    font-size: 2.53vmin;
+}
+
+.img-view {
+    padding: 0vmin 3vmin;
+}
+
+.img-view img {
+    border-radius: 0.5vmin;
+}
+
+.gallery i {
+    font-size: 2vmin;
+    cursor: pointer;
+}
+
+.gallery i:first-child {
+    margin-right: 1vmin;
+}
+
+.gallery i:last-child {
+    margin-left: 1vmin;
+}
+
+.screenshots {
+    overflow-x: auto;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+}
+
+.screenshots div {
+    margin: 2vmin 1vmin 0vmin;
+    background-color: var(--card-color);
+    border: 0.2vmin solid var(--border-color);
+    padding: 0.8vmin 0.8vmin;
+    border-radius: 0.3vmin;
+    cursor: pointer;
+}
+
+.screenshots div img {
+    border-radius: 0.3vmin;
+}
+
+.screenshots .active {
+    border: 0.3vmin solid var(--accent-color);
+    border-radius: 0.3vmin;
+}
+
+.screenshots div:first-child {
+    margin: 2vmin 1vmin 0vmin 0vmin;
+}
+
+.screenshots div:last-child {
+    margin: 2vmin 0vmin 0vmin 1vmin;
+}
+
+.overview-features-container {
+    margin-top: 7vmin;
+}
+
+.overview {
+    background-color: var(--card-color);
+    border: 0.2vmin solid var(--border-color);
+    border-radius: 0.3vmin;
+    padding: 2.5vmin 3.5vmin;
+    width: 49%;
+}
+
+.overview h4 {
+    font-size: 3.5vmin;
+    margin-bottom: 3vmin;
+    letter-spacing: 0.1vmin;
+}
+
+.overview h4 i {
+    color: var(--accent-color);
+    font-size: 4vmin;
+    margin-right: 1vmin;
+}
+
+.overview p {
+    font-size: 2.5vmin;
+    letter-spacing: 0.1vmin;
+    font-weight: 350;
+    color: var(--text-color);
+    line-height: 4vmin;
+}
+
+.features {
+    background-color: var(--card-color);
+    border: 0.2vmin solid var(--border-color);
+    border-radius: 0.3vmin;
+    padding: 2.5vmin 3.5vmin;
+    width: 49%;
+}
+
+.features h4 {
+    font-size: 3.5vmin;
+    margin-bottom: 3vmin;
+    letter-spacing: 0.1vmin;
+}
+
+.features h4 i {
+    color: var(--accent-color);
+    font-size: 4vmin;
+    margin-right: 1vmin;
+}
+
+.features ul {
+    padding-left: 0vmin !important;
+}
+
+.features ul li {
+    list-style: none;
+    font-size: 2.5vmin;
+    letter-spacing: 0.1vmin;
+    font-weight: 350;
+    margin-bottom: 1vmin;
+}
+
+.features ul li i {
+    color: var(--accent-color);
+    margin-right: 1vmin;
+}
+
+.tech-responsibilities-container {
+    margin-top: 4vmin;
+}
+
+.tech {
+    background-color: var(--card-color);
+    border: 0.2vmin solid var(--border-color);
+    border-radius: 0.3vmin;
+    padding: 2.5vmin 3.5vmin;
+    width: 49%;
+}
+
+.tech h4 {
+    font-size: 3.5vmin;
+    margin-bottom: 3vmin;
+    letter-spacing: 0.1vmin;
+}
+
+.tech h4 i {
+    color: var(--accent-color);
+    font-size: 4vmin;
+    margin-right: 1vmin;
+}
+
+.tech div div {
+    font-size: 2.5vmin;
+    letter-spacing: 0.1vmin;
+    font-weight: 350;
+    color: var(--text-color);
+    background-color: var(--card-color);
+    border: 0.2vmin solid var(--border-color);
+    border-radius: 0.3vmin;
+    margin-right: 2vmin;
+    padding: 1vmin 2.5vmin;
+    margin-bottom: 2vmin;
+}
+
+.responsibilities {
+    background-color: var(--card-color);
+    border: 0.2vmin solid var(--border-color);
+    border-radius: 0.3vmin;
+    padding: 2.5vmin 3.5vmin;
+    width: 49%;
+}
+
+.responsibilities h4 {
+    font-size: 3.5vmin;
+    margin-bottom: 3vmin;
+    letter-spacing: 0.1vmin;
+}
+
+.responsibilities h4 i {
+    color: var(--accent-color);
+    font-size: 4vmin;
+    margin-right: 1vmin;
+}
+
+.responsibilities ul {
+    padding-left: 2.6vmin !important;
+}
+
+.responsibilities ul li {
+    font-size: 2.5vmin;
+    letter-spacing: 0.1vmin;
+    font-weight: 350;
+    margin-bottom: 1vmin;
+}
+
+@media (max-width: 992px) {
+
+    .overview,
+    .features,
+    .responsibilities,
+    .tech {
+        width: 100%;
+        margin-bottom: 4vmin;
+    }
+
+    .tech-responsibilities-container {
+        margin-top: 0vmin;
+    }
+
+    .screenshots-div {
+        margin-top: 5vmin;
+    }
+
+    .info {
+        padding-right: 0vmin;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .details-section h3 {
+        font-size: 7.5vmin;
+    }
+
+    .details-section .description {
+        font-size: 2.3vmin;
+    }
+
+    .details-section .live {
+        font-size: 2.3vmin;
+    }
+
+    .details-section .code {
+        font-size: 2.3vmin;
+    }
+
+    .project-type i {
+        font-size: 3vmin;
+    }
+
+    .project-type div div {
+        font-size: 2.3vmin;
+    }
+
+    .project-type p {
+        font-size: 2.33vmin;
+    }
+}

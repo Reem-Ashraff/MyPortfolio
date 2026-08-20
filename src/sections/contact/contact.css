@@ -1,0 +1,73 @@
+.contact-section{
+    padding: 7vmin 10vmin;
+}
+.contact-head h3{
+    font-size: 4vmin;
+    letter-spacing: 0.1vmin;
+    color: var(--text-color);
+}
+.contact-head .line{
+    color: var(--accent-color);
+    font-size: 2.5vmin;
+    line-height: 2vmin;
+    margin-bottom: 5vmin;
+}
+.contact-description{
+    font-size: 2.7vmin;
+    margin-bottom: 4vmin;
+    color: var(--text-color);
+    padding-right: 3vmin;
+}
+.contact-div{
+    height: fit-content;
+}
+form{
+    width: 100%;
+    background-color: var(--card-color);
+    padding: 3vmin 3vmin;
+    border: 0.2vmin solid var(--border-color);
+    border-radius: 0.3vmin;
+}
+form .input{
+    background-color: var(--card-color);
+    border: 0.2vmin solid var(--border-color);
+    border-radius: 0.3vmin;
+    font-size: 2.5vmin;
+    color: var(--text-color);
+    font-weight: 350;
+    margin-bottom: 2vmin;
+    padding: 1vmin 2vmin;
+}
+form .width{
+    width: 49%;
+}
+form .submit{
+    font-size: 2.5vmin;
+    background-color: var(--accent-color);
+    border: 0.2vmin solid var(--accent-color);
+    border-radius: 0.3vmin;
+    color: white;
+    padding: 1vmin 0vmin;
+    transition: 0.3s;
+}
+form .submit:hover{
+    background-color: var(--card-color);
+    color: var(--accent-color);
+}
+.submit i{
+    margin-right: 1vmin;
+}
+.success-message{
+    font-size: 2.5vmin;
+    color: var(--text-color);
+    margin-top: 2vmin;
+}
+.success-message i{
+    margin-right: 1vmin;
+}
+
+@media (max-width: 992px) {
+    .contact-div:last-child{
+        margin-top: 5vmin !important;
+    }
+}

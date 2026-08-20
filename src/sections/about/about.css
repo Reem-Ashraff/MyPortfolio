@@ -1,0 +1,82 @@
+.about-section{
+    padding: 7vmin 10vmin;
+}
+.about-head h3{
+    font-size: 4vmin;
+    letter-spacing: 0.1vmin;
+    color: var(--text-color);
+}
+.about-head .line{
+    color: var(--accent-color);
+    font-size: 2.5vmin;
+    line-height: 2vmin;
+    margin-bottom: 5vmin;
+}
+.about-section .about-content p{
+    font-size: 2.7vmin;
+    color: var(--text-color);
+    font-weight: 350;
+    margin-bottom: 3vmin;
+}
+.about-section .about-content p:last-child{
+    margin-bottom: 0vmin;
+}
+.about-section .about-content a{
+    display: inline-block;
+    font-size: 2.5vmin;
+    padding: 1vmin 2.3vmin;
+    text-decoration: none;
+    color: var(--accent-color);
+    border: 0.2vmin solid var(--accent-color);
+    margin-top: 3vmin;
+    border-radius: 0.3vmin;
+    transition: 0.3s;
+}
+.about-section .about-content a:hover{
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+.about-section .personal-info{
+    background-color: var(--card-color);
+    height: fit-content;
+    border: 0.2vmin solid var(--border-color);
+    padding: 3vmin 3.5vmin;
+    border-radius: 0.5vmin;
+    width: 80%;
+}
+.personal-info h4{
+    font-size: 3.2vmin;
+    margin-bottom: 2vmin;
+}
+.personal-info h4 i{
+    margin-right: 2vmin;
+    color: var(--accent-color);
+}
+.info-item{
+    font-size: 2.5vmin;
+    margin-bottom: 2vmin;
+}
+.info-item:last-child{
+    margin-bottom: 0vmin;
+}
+.info-item i{
+    font-size: 3.2vmin;
+    margin-right: 2vmin;
+    color: var(--accent-color);
+}
+.info-item span{
+    margin-right: 2vmin;
+    color: var(--accent-color);
+    font-weight: 350;
+}
+.info-item p{
+    color: var(--text-color);
+    font-weight: 350;
+}
+
+@media (max-width: 992px) {
+    .about-section .personal-info{
+        width: 100%;
+        margin-top: 5vmin;
+    }
+}

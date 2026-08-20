@@ -1,0 +1,64 @@
+.skills-section{
+    padding: 7vmin 10vmin;
+}
+.skills-head h3{
+    font-size: 4vmin;
+    letter-spacing: 0.1vmin;
+    color: var(--text-color);
+}
+.skills-head .line{
+    color: var(--accent-color);
+    font-size: 2.5vmin;
+    line-height: 2vmin;
+    margin-bottom: 5vmin;
+}
+.skill-category{
+    background-color: var(--card-color);
+    border: 0.3vmin solid var(--border-color);
+    padding: 2vmin 3vmin;
+    margin-bottom: 3vmin;
+}
+.skill-category:last-child{
+    margin-bottom: 0vmin;
+}
+.width1{
+    width: 30%;
+}
+.width2{
+    width: 26%;
+}
+.width3{
+    width: 22%;
+}
+.width4{
+    width: 18%;
+}
+.skill-category h4{
+    font-size: 2.9vmin;
+    color: var(--text-color);
+    margin-bottom: 3vmin;
+    letter-spacing: 0.1vmin;
+}
+.skill-category h4 i{ 
+    font-size: 3.6vmin;
+    color: var(--accent-color);
+    margin-right: 1vmin;
+}
+.skill-category .skills div{
+    border: 0.3vmin solid var(--border-color);
+    /* box-shadow: 0vmin 0vmin 0.3vmin var(--accent-color); */
+    border-radius: 0.3vmin;
+    padding: 0.5vmin 1.5vmin;
+    font-size: 2.3vmin;
+    margin-right: 1.5vmin;
+    margin-bottom: 1vmin;
+}
+.skill-category .skills div:last-child{
+    margin-right: 0vmin;
+}
+
+@media (max-width: 992px) {
+    .width1,.width2,.width3,.width4{
+        width: 100%;
+    }
+}

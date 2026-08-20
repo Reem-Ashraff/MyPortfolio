@@ -1,0 +1,99 @@
+.experience-section{
+    padding: 7vmin 10vmin;
+}
+.experience-head h3{
+    font-size: 4vmin;
+    letter-spacing: 0.1vmin;
+    color: var(--text-color);
+}
+.experience-head .line{
+    color: var(--accent-color);
+    font-size: 2.5vmin;
+    line-height: 2vmin;
+    margin-bottom: 5vmin;
+}
+
+.experience-timeline{
+    position: relative;
+}
+.experience-timeline::before {
+    content: "";
+    position: absolute;
+    left: 12vmin;
+    top: 0;
+    bottom: 0;
+    width: 0.1vmin;
+    background: var(--primary-color);
+    opacity: 0.5;
+}
+.experience-item{
+    margin-bottom: 3vmin;
+}
+.experience-item:last-child{
+    margin-bottom: 0vmin;
+}
+.experience-icon{
+    margin-right: 3vmin;
+}
+.experience-icon i{
+    font-size: 3.8vmin;
+    color: var(--accent-color);
+    border: 0.2vmin solid var(--accent-color);
+    border-radius: 0.5vmin;
+    background-color: var(--card-color);
+    padding: 1vmin 2vmin;
+}
+.timeline-dot {
+    width: 1.8vmin;
+    height: 1.8vmin;
+    border-radius: 50%;
+    background: var(--primary-color);
+    border: 0.2vmin solid var(--bg-color);
+    box-shadow: 0 0 1vmin var(--primary-color);
+    margin-right: 3vmin;
+}
+.experience-card{
+    background-color: var(--card-color);
+    border: 0.2vmin solid var(--border-color);
+    border-radius: 0.3vmin;
+    padding: 2.5vmin 3vmin;
+}
+.experience-card-header{
+    margin-bottom: 1vmin;
+}
+.experience-card-header h4{
+    font-size: 3.4vmin;
+    color: var(--accent-color);
+    margin-bottom: 0vmin;
+}
+.experience-card-header span{
+    font-size: 2.7vmin;
+    color: var(--accent-color);
+}
+.experience-company{
+    font-size: 2.6vmin;
+    color: var(--text-color);
+    font-weight: 350;
+    margin-bottom: 1.3vmin;
+}
+ul{
+    padding-left: 4vmin !important;
+    margin-bottom: 0vmin !important;
+}
+ul li{
+    font-size: 2.5vmin;
+    font-weight: 330;
+}
+.experience-link{
+    display: inline-block;
+    font-size: 2.5vmin;
+    color: var(--accent-color);
+    text-decoration: none;
+    margin-top: 2vmin;
+}
+
+/* @media (max-width: 768px) {
+    .experience-icon i{
+        font-size: 3vmin;
+    }
+} */

@@ -1,0 +1,102 @@
+.education-section{
+    padding: 7vmin 10vmin;
+}
+.education-head h3{
+    font-size: 4vmin;
+    letter-spacing: 0.1vmin;
+    color: var(--text-color);
+}
+.education-head .line{
+    color: var(--accent-color);
+    font-size: 2.5vmin;
+    line-height: 2vmin;
+    margin-bottom: 5vmin;
+}
+.education-description{
+    font-size: 2.7vmin;
+    margin-bottom: 4vmin;
+    color: var(--text-color);
+}
+.education-timeline{
+    position: relative;
+}
+.education-timeline::before {
+    content: "";
+    position: absolute;
+    left: 12vmin;
+    top: 0;
+    bottom: 0;
+    width: 0.1vmin;
+    background: var(--primary-color);
+    opacity: 0.5;
+}
+.education-item{
+    margin-bottom: 3vmin;
+}
+.education-item:last-child{
+    margin-bottom: 0vmin;
+}
+.education-icon{
+    margin-right: 3vmin;
+}
+.education-icon i{
+    font-size: 3.8vmin;
+    color: var(--accent-color);
+    border: 0.2vmin solid var(--accent-color);
+    border-radius: 0.5vmin;
+    background-color: var(--card-color);
+    padding: 1vmin 2vmin;
+}
+.timeline-dot {
+    width: 1.8vmin;
+    height: 1.8vmin;
+    border-radius: 50%;
+    background: var(--primary-color);
+    border: 0.2vmin solid var(--bg-color);
+    box-shadow: 0 0 1vmin var(--primary-color);
+    margin-right: 3vmin;
+}
+.education-card{
+    background-color: var(--card-color);
+    border: 0.2vmin solid var(--border-color);
+    border-radius: 0.3vmin;
+    padding: 2.5vmin 3vmin;
+}
+.education-card-header{
+    margin-bottom: 1vmin;
+}
+.education-card-header h4{
+    font-size: 3.4vmin;
+    color: var(--accent-color);
+    margin-bottom: 0vmin;
+}
+.education-card-header span{
+    font-size: 2.7vmin;
+    color: var(--accent-color);
+    /* border: 0.1vmin solid var(--accent-color); */
+    box-shadow: 0vmin 0vmin 0.2vmin var(--accent-color);
+    padding: 0.5vmin 2vmin;
+    border-radius: 0.3vmin;
+}
+.education-university{
+    font-size: 2.6vmin;
+    color: var(--text-color);
+    font-weight: 350;
+    margin-bottom: 1.3vmin;
+}
+.education-date{
+    margin-bottom: 2vmin;
+    font-size: 2.4vmin;
+    font-weight: 200;
+}
+.education-date i{
+    color: var(--accent-color);
+    margin-right: 1vmin;
+}
+.education-date span{
+    color: var(--text-color);
+}
+.education-details{
+    font-size: 2.5vmin;
+    font-weight: 330;
+}
