@@ -98,7 +98,183 @@ const ProjectDetails = () => {
         }
       ],
     },
+    {
+      id: "vitality",
+      title: "Vitality",
+      badge: "Animal Health & Nutrition",
 
+      description:
+        "A modern and responsive corporate website for an animal health and nutrition company specializing in probiotic feed additives, showcasing its products, solutions, quality standards, and company information.",
+
+      projectType: "Corporate Website",
+
+      liveDemo: "https://vitality-one-cyan.vercel.app/",
+      github: null,
+
+      mainImage: "../../../assets/vitality/vitality-home1.jpeg",
+
+      overview:
+        "Vitality is a corporate website developed for an animal health and nutrition company specializing in probiotic feed additives. The website was designed to provide a clean, modern, and professional digital experience while clearly presenting the company's products, solutions, quality standards, and company information.",
+
+      features: [
+        "Responsive corporate website",
+        "Company information and brand presentation",
+        "Product showcase",
+        "Solutions section",
+        "Quality and standards presentation",
+        "Contact section",
+        "English/Arabic language support",
+        "Responsive design for desktop and mobile devices",
+        "Modern and professional user interface",
+        "Clear content structure and navigation",
+      ],
+
+      techStack: [
+        "React.js",
+        "JavaScript",
+        "Bootstrap",
+        "HTML5",
+        "CSS3",
+      ],
+
+      responsibilities: [
+        "Designed and developed the website interface based on the client's requirements.",
+        "Built the frontend using React.js and Bootstrap.",
+        "Created reusable and responsive UI components.",
+        "Implemented responsive layouts for desktop and mobile devices.",
+        "Structured and organized website content for a clear user experience.",
+        "Developed product, solutions, quality, and company information sections.",
+        "Translated the brand identity into a clean and professional digital experience.",
+        "Managed website deployment and ongoing maintenance.",
+      ],
+
+      screenshots: [
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-home1.jpeg`,
+          title: "Home Page",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-home2.jpeg`,
+          title: "About Us",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-home4.jpeg`,
+          title: "Solutions",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-home5.jpeg`,
+          title: "Quality",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-home6.jpeg`,
+          title: "Contact",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-about1.jpeg`,
+          title: "Contact",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-about2.jpeg`,
+          title: "Contact",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-about3.jpeg`,
+          title: "Contact",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-about4.jpeg`,
+          title: "Contact",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-about5.jpeg`,
+          title: "Contact",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-product1.jpeg`,
+          title: "Contact",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-product2.jpeg`,
+          title: "Contact",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-product3.jpeg`,
+          title: "Contact",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-product4.jpeg`,
+          title: "Contact",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-product5.jpeg`,
+          title: "Contact",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-product6.jpeg`,
+          title: "Contact",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-product7.jpeg`,
+          title: "Contact",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-product8.jpeg`,
+          title: "Contact",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-solutions1.jpeg`,
+          title: "Contact",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-solutions2.jpeg`,
+          title: "Contact",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-solutions3.jpeg`,
+          title: "Contact",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-solutions4.jpeg`,
+          title: "Contact",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-solutions5.jpeg`,
+          title: "Contact",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-quality1.jpeg`,
+          title: "Contact",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-quality3.jpeg`,
+          title: "Contact",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-quality2.jpeg`,
+          title: "Contact",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-quality4.jpeg`,
+          title: "Contact",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-quality5.jpeg`,
+          title: "Contact",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-quality6.jpeg`,
+          title: "Contact",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-contact1.jpeg`,
+          title: "Contact",
+        },
+        {
+          image: `${process.env.PUBLIC_URL}/assets/vitality/vitality-contact2.jpeg`,
+          title: "Contact",
+        }
+      ],
+    },
     {
       id: "furniture-store",
       title: "Furniture Store",
@@ -580,9 +756,9 @@ const ProjectDetails = () => {
             <div className="tech">
               <h4><i className="bi bi-layers"></i> Tech Stack</h4>
               <div className="d-flex flex-wrap">
-                {project.techStack.map((tech,index)=>{
-                  return(
-                  <div key={index}>{tech}</div>
+                {project.techStack.map((tech, index) => {
+                  return (
+                    <div key={index}>{tech}</div>
                   )
                 })}
               </div>

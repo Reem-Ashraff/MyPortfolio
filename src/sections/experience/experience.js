@@ -5,16 +5,13 @@ const Experience = () => {
     const experiences = [
         {
             icon: "bi-briefcase-fill",
-            title: "Freelance Full-Stack Developer",
-            company: "Bonian Nabil",
+            title: "Freelance Frontend Developer",
+            company: "Self-Employed",
             date: "Jun 2026 – Present",
             details: [
-                "Delivered a responsive corporate website for Bonian Nabil based on client requirements.",
-                "Developed modern user interfaces using React.js and Bootstrap CSS.",
-                "Implemented responsive layouts with attention to accessibility and performance.",
-                "Managed the project lifecycle from requirements gathering through deployment."
-            ],
-            link: "https://www.boniannabil.com"
+                "Delivered 2 client-facing websites based on client requirements, from UI implementation through deployment.",
+                "Managed hosting and provided post-launch maintenance and updates for client websites."
+            ]
         },
         {
             icon: "bi-mortarboard-fill",

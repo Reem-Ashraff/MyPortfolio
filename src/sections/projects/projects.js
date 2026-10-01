@@ -18,6 +18,18 @@ const Projects = () => {
             github: null
         },
         {
+            id: "vitality",
+            title: "Vitality",
+            category: "Corporate Website",
+            tech: ["React.js, ", "Bootstrap, ", "CSS3"],
+            description:
+                "Designed and developed a responsive corporate website for an animal health and nutrition company specializing in probiotic feed additives, showcasing its products, solutions, and quality standards.",
+            darkImage: `${process.env.PUBLIC_URL}/assets/vitality/vitality-dark.png`,
+            lightImage: `${process.env.PUBLIC_URL}/assets/vitality/vitality-light.png`,
+            live: "https://www.vitality-eg.com",
+            github: null
+        },
+        {
             id: "furniture-store",
             title: "Furniture Store",
             category: "Full-Stack E-Commerce",
@@ -62,7 +74,7 @@ const Projects = () => {
                     <a href="https://github.com/Reem-Ashraff" target="_blank" rel="noreferrer">View All on GitHub <i className="bi bi-arrow-right-short"></i></a>
                 </div>
                 <p className="projects-description">Here are some of the projects I've built. Each one reflects my passion for clean code, problem-solving, and creating meaningful digital experiences.</p>
-                <div className="d-flex justify-content-between flex-wrap">
+                <div className="d-flex flex-wrap">
                     {projects.map((project, index) => {
                         return (
                             <div className="project" key={index}>
